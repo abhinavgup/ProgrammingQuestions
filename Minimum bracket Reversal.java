@@ -7,4 +7,18 @@ Return -1 if the given expression can't be balanced.
 
 */
 
+import java.util.Stack;
+public class Solution {
+
+	
+	// Function returns -1 if brackets can't be balanced
+	public static int countBracketReversals(String input){
+		
+		    Stack<Character> s1=new Stack<Character>();
+      
+             if ((input.length())%2!=0){
+               return -1;
+             }
+
+
 
