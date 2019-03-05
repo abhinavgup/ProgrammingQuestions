@@ -35,5 +35,15 @@ public class Solution {
                  s1.push(input.charAt(i));
                }
              }
+	 int count=0;
+      while (!s1.isEmpty()){
+        char c1=s1.pop();
+       char c2=s1.pop();
+        
+        if (c1!=c2 ){
+          
+       
+          count=count+2;
+        }
 
 
