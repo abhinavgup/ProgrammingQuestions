@@ -19,6 +19,13 @@ public class Solution {
              if ((input.length())%2!=0){
                return -1;
              }
-
+		 for (int i=0;i<input.length();i++){
+      
+                 
+                 if (input.charAt(i)=='{'){
+                   
+                   s1.push(input.charAt(i));
+                 }
+               
 
 
