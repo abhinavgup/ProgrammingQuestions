@@ -45,5 +45,17 @@ public class Solution {
        
           count=count+2;
         }
+	   
+	 else {
+           
+            
+          count=count+1;
+        }
+           
+      }
+      return count;
+  
+    }}
+	      
 
 
