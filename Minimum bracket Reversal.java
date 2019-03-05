@@ -26,6 +26,14 @@ public class Solution {
                    
                    s1.push(input.charAt(i));
                  }
-               
+                
+               else if (!s1.isEmpty() && s1.peek()=='{'){
+                 s1.pop();
+                     }    
+       
+               else  {
+                 s1.push(input.charAt(i));
+               }
+             }
 
 
