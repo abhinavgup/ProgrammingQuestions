@@ -19,4 +19,9 @@ public class Solution {
 	for(int i=1;i<n;i++){
         storage[i]=1;
       
+      for(int j=i-1;j>=0;j--){
+        
+        if (arr[j]>=arr[i]){
+          continue;
+        }
       
