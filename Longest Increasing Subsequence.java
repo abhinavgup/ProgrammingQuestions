@@ -34,4 +34,16 @@ public class Solution {
     }
    
   int max=0;
+  for(int k=0;k<n;k++){
+  if (max<storage[k]){
+    max=storage[k];
+  }
+  }
+    
+  return max;
+  
+		
+		
+
+		
       
