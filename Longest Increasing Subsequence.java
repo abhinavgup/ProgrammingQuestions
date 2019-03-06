@@ -24,4 +24,7 @@ public class Solution {
         if (arr[j]>=arr[i]){
           continue;
         }
+       int temp=storage[j]+1;
+        if (temp>storage[i]){
+          storage[i]=temp;
       
