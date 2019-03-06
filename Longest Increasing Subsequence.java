@@ -27,4 +27,11 @@ public class Solution {
        int temp=storage[j]+1;
         if (temp>storage[i]){
           storage[i]=temp;
+		
+	 }
+      }
+    
+    }
+   
+  int max=0;
       
