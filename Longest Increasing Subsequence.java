@@ -15,4 +15,8 @@ public class Solution {
 		int storage[]=new int [n];
       
        storage[0]=1;
+	
+	for(int i=1;i<n;i++){
+        storage[i]=1;
+      
       
