@@ -6,3 +6,13 @@ Given an array with N elements, you need to find the length of the longest subse
 elements of the subsequence are sorted in strictly increasing order.
 
 */
+
+public class Solution {
+
+	public static int lis(int arr[]) {
+      int n=arr.length;
+		
+		int storage[]=new int [n];
+      
+       storage[0]=1;
+      
