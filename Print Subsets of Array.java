@@ -20,3 +20,9 @@ public class solution {
         return;
       
       }
+	
+       int[]  newoutputso=new int[outputso.length+1];
+            
+      	  printSubsets(input,si+1,outputso);
+      
+      		
