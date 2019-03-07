@@ -11,7 +11,7 @@ public class solution {
       
       if (input.length==si){
                
-        for(int i=0;i<outputso.length;i++){
+       for(int i=0;i<outputso.length;i++){
           System.out.print(outputso[i]+" ");
         }
 	   
@@ -23,11 +23,16 @@ public class solution {
             
       	  printSubsets(input,si+1,outputso);
 	newoutputso[outputso.length]=input[si];
-     for(int i=0;i<outputso.length;i++){
+    for(int i=0;i<outputso.length;i++){
                                            
       newoutputso[i]=outputso[i];
      }
       printSubsets(input,si+1,newoutputso);
     }
+ public static void printSubsets(int input[]) {
+         
+         int outputso[]=new int[0];
+          printSubsets(input,0,outputso ) ;
+		
       
       		
