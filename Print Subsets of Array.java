@@ -15,3 +15,8 @@ public class solution {
         for(int i=0;i<outputso.length;i++){
           System.out.print(outputso[i]+" ");
         }
+	   
+	System.out.println();
+        return;
+      
+      }
