@@ -33,6 +33,8 @@ public class solution {
          
          int outputso[]=new int[0];
           printSubsets(input,0,outputso ) ;
+	 
+ }}
 		
       
       		
