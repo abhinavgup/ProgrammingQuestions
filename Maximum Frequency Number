@@ -14,4 +14,11 @@ public static int maxFrequencyNumber(int[] arr){
 		              
    HashMap<Integer,Integer>seen=new HashMap<>();
         for(int i: arr){
+	 if (seen.containsKey(i)){
+          seen.put(i,seen.get(i)+1); 
+        }
+        else{
+          seen.put(i,1);
+        }
+          }
         
