@@ -6,4 +6,7 @@ which occurs maximum times in the given input.
 If more than one element occurs same number of times in the input, return the element which is present in the input first.
 
 */
+import java.util.ArrayList;
+import java.util.HashMap;
+public class Solution {
 
