@@ -28,3 +28,8 @@ public static int maxFrequencyNumber(int[] arr){
         max=seen.get(i);
         ans=i;
       }
+  }
+      
+      return ans;
+       }
+}
