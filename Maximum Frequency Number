@@ -22,3 +22,9 @@ public static int maxFrequencyNumber(int[] arr){
         }
           }
         
+ int max=0, ans=Integer.MIN_VALUE;
+      for(int i: arr){
+      if (seen.get(i)>max){
+        max=seen.get(i);
+        ans=i;
+      }
