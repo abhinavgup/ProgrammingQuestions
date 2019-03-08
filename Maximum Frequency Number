@@ -10,3 +10,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 public class Solution {
 
+public static int maxFrequencyNumber(int[] arr){
+		              
+   HashMap<Integer,Integer>seen=new HashMap<>();
+        for(int i: arr){
+        
