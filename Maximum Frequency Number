@@ -29,7 +29,5 @@ public static int maxFrequencyNumber(int[] arr){
         ans=i;
       }
   }
-      
-      return ans;
-       }
-}
+  return ans;
+       }}
