@@ -32,3 +32,26 @@ class LinkedListNode<T> {
 }
 * */
 
+public class Solution {
+	public static LinkedListNode<Integer> kReverse(LinkedListNode<Integer> head, int k) {
+	   LinkedListNode<Integer>  l = head;
+     int c =0;
+      while(l!=null){
+        c++;
+        l=l.next;
+      }
+      if(head == null || head.next == null){
+          return head;
+        }  
+     LinkedListNode<Integer>  temp = head;
+      int i=1;
+      int z;
+      if(k>c){
+        z=c;
+      }else{
+        z=k;
+      }
+      while(i<z){
+        temp=temp.next;
+        i++;
+      }
