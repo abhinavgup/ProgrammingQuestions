@@ -69,3 +69,7 @@ public class Solution {
       return head; 
       
     }
+ public static LinkedListNode<Integer> reverse(LinkedListNode<Integer> head) {
+        if( head==null || head.next == null ){
+  return head;
+}
