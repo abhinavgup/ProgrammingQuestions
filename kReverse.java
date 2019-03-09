@@ -55,3 +55,17 @@ public class Solution {
         temp=temp.next;
         i++;
       }
+ LinkedListNode<Integer> temp2 = temp.next;
+      temp.next = null;
+      head = reverse(head);
+    LinkedListNode<Integer> x =	kReverse(temp2,k);
+      temp = head;
+       i=1;
+      while(i<z){
+        temp=temp.next; 
+        i++;
+      }
+      temp.next = x;
+      return head; 
+      
+    }
