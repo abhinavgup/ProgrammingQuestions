@@ -73,3 +73,8 @@ public class Solution {
         if( head==null || head.next == null ){
   return head;
 }
+LinkedListNode<Integer>x = reverse(head.next);
+LinkedListNode<Integer>temp = x;
+while(temp.next!=null){
+  temp=temp.next;
+}  
