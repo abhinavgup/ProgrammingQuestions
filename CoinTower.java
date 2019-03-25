@@ -37,3 +37,17 @@ public class solution {
       }
     }
       }
+ String s;
+      
+	if (storage[n]!=0){
+      s="Beerus";
+    }
+  else{
+    s="Whis";
+  }
+  return s;
+  
+}}		
+		
+		
+     
