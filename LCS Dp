@@ -84,7 +84,7 @@ public static int lcsM(String s1,String s2,int storage[][]){
       int n=s2.length();
       
       
-      int storage[][]=new int [m][n];
+      int storage[][]=new int [m+1][n+1];
       
       for(int i=0;i<m;i++){
           for(int j=0;j<n;j++){
@@ -97,7 +97,8 @@ public static int lcsM(String s1,String s2,int storage[][]){
       
       
   }
-  
+   
+   // dp approach
   
        public static int lcsDP(String s1,String s2){
       
